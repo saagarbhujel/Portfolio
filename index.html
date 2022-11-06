@@ -20,10 +20,12 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/bee1918978.js" crossorigin="anonymous"></script>
     <script
       src="[https://kit.fontawesome.com/bee1918978.js](https://kit.fontawesome.com/bee1918978.js)"
       crossorigin="anonymous"
     ></script>
+    
   </head>
   <body>
     <header class="header">
@@ -32,16 +34,16 @@
           <h3 class="small-heading">Port<span>folio</span></h3>
         </div>
         <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contacts</a></li>
         </ul>
       </nav>
     </header>
     <main class="main">
-      <section class="home">
+      <section class="home" id="home">
         <div class="home-contents">
           <h3 class="small-heading1">My name is</h3>
           <h2 class="large-heading">Saagar <span>Bhujel</span></h2>
@@ -49,7 +51,7 @@
           <a href="#" class="btn">Hire me</a>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <h3 class="large-heading">About<span>Me</span></h3>
         <img
           src="/images/IMG_20210109_193510_842_Original.jpg"
@@ -71,7 +73,10 @@
         <a href="#" class="btn"> Lets Talk</a>
       </section>
       <hr />
-      <section class="skills owl-carousel owl-theme">
+
+      <!-- SKILLS -->
+
+      <section class="skills owl-carousel owl-theme" id="skills">
         <div class="skills-each">
           <img src="/images/css.png" alt="" />
           <p>CSS</p>
@@ -99,7 +104,7 @@
         </div>
       </section>
       <!-- Projects -->
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="projects-each">
           <img src="/images/nodejs.png" alt="Project 1 image" />
           <h3>Project 1</h3>
@@ -131,7 +136,71 @@
           </p>
         </div>
       </section>
+
+
+      <!-- CONTACT-SECTION -->
+
+      <!-- <section class="contacts">
+        <div class="contact-list">
+          <h3 class="contact">Contact <span>Me</span></h3>
+          <div>
+          <ul class="cntct">
+           <li> <a href="https://www.facebook.com/RagaaSMgR618"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+           <li><a href="https://www.instagram.com/saagar_bhujel/"> <i class="fa-brands fa-instagram"></i>Instagram</a></li>
+            <li><a href="saagarbhujel22@gmail.com"><i class="fa-solid fa-envelope"></i>Email</a></li>
+          </ul>
+          </div>
+        </div>
+      </section> -->
+
+      <hr />
+      <section class="contact" id="contact">
+        <h3 class="large-heading">Contact <span>Me</span></h3>
+        <div class="contact_details">
+          <div>
+            <a href="mailto:rajeevbaniya11@gmail.com">
+              <i class="fa-regular fa-envelope"></i> saagarbhujel22@gmail.com
+            </a>
+          </div>
+          <div>
+            <a href="tel:9805832174">
+              <i class="fa-solid fa-phone"></i>9827150495
+            </a>
+          </div>
+          <div>
+            <p>
+              <i class="fa-regular fa-address-book"></i> Begnastal,
+              Pokhara-31, Nepal
+            </p>
+          </div>
+        </div>
+        <div class="contact_icons">
+          <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </section>
     </main>
+   
+       <!-- FOOTER-SECTION -->
+
+    <footer class="footer">
+      <p>&#169; Developed by Saagar Bhujel</p>
+    </footer>
+
+
+    </main>
+
+
      <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
       integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
